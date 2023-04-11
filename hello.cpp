@@ -2,4 +2,10 @@
 
 using namespase std;
 
-cout<<"Hello world";
+void main(){
+name = "";
+cout<<"Enter ur name: ";
+cin>>name;
+cout<<"Hello world from " + name;
+
+}
