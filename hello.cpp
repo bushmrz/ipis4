@@ -1,11 +1,8 @@
 #include <iostream>
 
-using namespase std;
-
 void main(){
 name = "";
-cout<<"Enter ur name: ";
-cin>>name;
-cout<<"Hello world from " + name;
-
+std::cout<<"Enter ur name: ";
+std::cin>>name;
+std::cout<<"Hello world from " + name;
 }
